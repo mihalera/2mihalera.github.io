@@ -1,0 +1,97 @@
+body {
+        background-image: url("1111.jpg");
+        background-size: 100%;
+        background-position: top;
+        font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+#back{
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    font-weight: 900px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: #ec0c0c;
+    color: #000000;
+}
+#miha {
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    font-weight: 900px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: #34edf5;    
+    color: #000000;
+}
+@media screen and (max-width: 1200px) and (min-width: 781px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-size: 150%;
+        background-position: top;
+    }
+}
+@media screen and (max-width: 780px) and (min-width: 561px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-size: 200%;
+        background-position: top;
+    }
+}
+@media screen and (max-width: 560px) and (min-width: 361px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-size: 232%;
+        background-position: top;
+    }
+}
+@media screen and (max-width: 360px) and (min-width: 245px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-size: 332%;
+        background-position: top;
+    }
+}
+@media screen and (max-width: 244px) {
+    article {
+        float: none;
+        width: auto;
+    }
+    body {
+        background-size: 400%;
+        background-position: top;
+}
+}
+@media screen and (min-width: 700px){
+    #miha {
+        padding: 0;
+        width: 60%;
+        font-weight: 800px;
+        font-size: 32px;
+        padding: 0;
+    }
+    #back {
+        padding: 0;
+        width: 60%;
+        font-weight: 800px;
+        font-size: 32px;
+        padding: 0;
+    }
+}

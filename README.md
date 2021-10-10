@@ -1,2 +1,1 @@
-# tvorit
-club
+tvorit.github.io
